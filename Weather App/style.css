@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#heroContent {
+    margin: auto;
+    margin-top: 6%;
+    padding: 50px;
+    width: 28%;
+    height: 78%;
+    border-radius: 5%;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+#topBar{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+#searchText{
+    height: 45px;
+    width: 80%;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+#searchButton{
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature{
+    padding-top: 10px;
+    font-size: 4rem;
+}
+
+#city{
+    padding-top: 10px;
+    font-size: 3rem;
+}
+
+.weatherIcon {
+    font-size: 3rem;
+}
+
+#bottomBar {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.valueContainer{
+    display: flex;
+    gap: 8px;
+}
+#humidityValue {
+    font-size: 2rem;
+}
+#windValue {
+    font-size: 2rem;
+}
+.values{
+    padding-top: 5px;
+}
