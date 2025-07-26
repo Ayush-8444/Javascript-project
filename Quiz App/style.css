@@ -39,6 +39,10 @@ html, body{
     padding: 10px 20px;
     border-radius: 10px;
 }
+.option:hover{
+    background-color: black;
+    color: white;
+}
 .button {
     color: white;
     width: 150px;
@@ -48,6 +52,16 @@ html, body{
     text-align: center;
     background-color: #031E4F;
 }
+#displayScore{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 4rem;
+}
 .hidden{
     display: none;
+}
+.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
 }

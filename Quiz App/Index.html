@@ -12,15 +12,18 @@
     <div id="heroContent">
         <h1>Simple Quiz</h1>
         <hr>
-        <div id="question">1.What is the capital of India?</div>
-        <div id="optionContainer">
-            <div class="option">Mumbai</div>
+        <div id="displayScore" class="hidden"></div>
+        <div id="box" >
+            <div id="question" >1.What is the capital of India?</div>
+            <div id="optionContainer">
+            <div class="option" disabled="true" >Mumbai</div>
             <div class="option">Delhi</div>
             <div class="option">Pune</div>
             <div class="option">Indore</div>
         </div>
-        <div class="button" >Next</div>
-        <div class="button hidden" >Play Again</div>
+        </div>
+        <div id="next" class="button" >Next</div>
+        <div id="playAgain" class="button hidden" >Play Again</div>
     </div>
 
     <script type="module" src="script.js"></script>
